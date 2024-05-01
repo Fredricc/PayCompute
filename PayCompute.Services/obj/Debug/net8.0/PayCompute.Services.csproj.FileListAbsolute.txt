@@ -1,0 +1,17 @@
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Services.deps.json
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Services.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Services.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Entity.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Persistance.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Entity.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\bin\Debug\net8.0\PayCompute.Persistance.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompu.B17D370B.Up2Date
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\refint\PayCompute.Services.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\ref\PayCompute.Services.dll

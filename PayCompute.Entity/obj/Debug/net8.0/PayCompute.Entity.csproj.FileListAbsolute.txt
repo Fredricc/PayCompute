@@ -1,0 +1,11 @@
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\bin\Debug\net8.0\PayCompute.Entity.deps.json
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\bin\Debug\net8.0\PayCompute.Entity.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\bin\Debug\net8.0\PayCompute.Entity.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\refint\PayCompute.Entity.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\PayCompute.Entity.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Entity\obj\Debug\net8.0\ref\PayCompute.Entity.dll

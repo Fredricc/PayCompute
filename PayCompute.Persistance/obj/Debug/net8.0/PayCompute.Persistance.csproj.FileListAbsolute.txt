@@ -1,0 +1,15 @@
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\bin\Debug\net8.0\PayCompute.Persistance.deps.json
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\bin\Debug\net8.0\PayCompute.Persistance.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\bin\Debug\net8.0\PayCompute.Persistance.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\bin\Debug\net8.0\PayCompute.Entity.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\bin\Debug\net8.0\PayCompute.Entity.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompu.F1FD97EC.Up2Date
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\refint\PayCompute.Persistance.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.pdb
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\ref\PayCompute.Persistance.dll
