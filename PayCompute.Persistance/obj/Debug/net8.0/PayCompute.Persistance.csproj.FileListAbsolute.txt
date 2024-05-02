@@ -13,3 +13,4 @@ C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistan
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\refint\PayCompute.Persistance.dll
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.pdb
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\ref\PayCompute.Persistance.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Persistance\obj\Debug\net8.0\PayCompute.Persistance.sourcelink.json

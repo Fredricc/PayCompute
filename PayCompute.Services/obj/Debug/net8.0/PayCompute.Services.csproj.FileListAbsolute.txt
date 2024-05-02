@@ -15,3 +15,4 @@ C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\refint\PayCompute.Services.dll
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.pdb
 C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\ref\PayCompute.Services.dll
+C:\Users\USER\OneDrive\Desktop\Fredrick\Projects\PayCompute\PayCompute.Services\obj\Debug\net8.0\PayCompute.Services.sourcelink.json
