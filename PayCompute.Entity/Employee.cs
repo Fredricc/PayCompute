@@ -39,8 +39,5 @@ namespace PayCompute.Entity
         [Required, MaxLength(50)]
         public string Postcode { get; set; }
         public  IEnumerable<PaymentRecord> PaymentRecord { get; set; }
-
-
-
     }
 }
