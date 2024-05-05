@@ -194,6 +194,33 @@ namespace PayCompute.Controllers
                 Postcode = employee.Postcode
             };
             return View(model);
+
+
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int Id)
+        {
+            var employee = _employeeServices.GetById(Id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel()
+            {
+                Id = employee.Id,
+                FullName = employee.FullName
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+            await _employeeServices.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
