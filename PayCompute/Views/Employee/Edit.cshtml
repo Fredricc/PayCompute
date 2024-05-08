@@ -1,5 +1,4 @@
-﻿@model EmployeeCreateViewModel
-
+﻿@model EmployeeEditViewModel
 
 <div class="col-md-12 grid-margin stretch-card">
     <div class="card">
@@ -8,17 +7,17 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
                     <li class="breadcrumb-item"><a asp-action="Index">Employee List</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">New Employee</li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit Employee</li>
                 </ol>
             </nav><br /><br />
-            <form method="post" enctype="multipart/form-data" asp-action="Create">
+            <form method="post" enctype="multipart/form-data" asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-row">
                     <div class="form-group col-md-2">
                         <label asp-for="EmployeeNo"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="EmployeeNo" class="form-control" placeholder="EMP000" />
+                        <input asp-for="EmployeeNo" class="form-control" readonly style="background-color: #293043" />
                         <span asp-validation-for="EmployeeNo" class="text-danger"></span>
                     </div>
                     <div class="col-md-2"></div>
@@ -26,7 +25,7 @@
                         <label asp-for="DateJoined"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="DateJoined" class="form-control" />
+                        <input asp-for="DateJoined" class="form-control" readonly style="background-color: #293043" />
                         <span asp-validation-for="DateJoined" class="text-danger"></span>
                     </div>
                 </div>
@@ -35,18 +34,18 @@
                         <label asp-for="FirstName"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="FirstName" class="form-control" placeholder="Enter First Name.." />
+                        <input asp-for="FirstName" class="form-control" placeholder="Enter First Name.." readonly style="background-color: #293043" />
                         <span asp-validation-for="FirstName" class="text-danger"></span>
                     </div>
                     <div class="col-md-2">
-                        <input asp-for="MiddleName" class="form-control" placeholder="Enter Middle Name.." />
+                        <input asp-for="MiddleName" class="form-control" placeholder="Enter Middle Name.." readonly style="background-color: #293043" />
                         <span asp-validation-for="MiddleName" class="text-danger"></span>
                     </div>
                     <div class="form-group col-md-2">
                         <label asp-for="LastName"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="LastName" class="form-control" placeholder="Enter Last Name" />
+                        <input asp-for="LastName" class="form-control" placeholder="Enter Last Name" readonly style="background-color: #293043" />
                         <span asp-validation-for="LastName" class="text-danger"></span>
                     </div>
                 </div>
@@ -67,7 +66,7 @@
                         <label asp-for="DOB"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="DOB" class="form-control" />
+                        <input asp-for="DOB" class="form-control" readonly style="background-color: #293043" />
                         <span asp-validation-for="DOB" class="text-danger"></span>
                     </div>
                 </div>
@@ -76,7 +75,7 @@
                         <label asp-for="NationalInsuranceNoOrPin"></label>
                     </div>
                     <div class="form-group col-md-3">
-                        <input asp-for="NationalInsuranceNoOrPin" class="form-control" placeholder="Enter NI number.." />
+                        <input asp-for="NationalInsuranceNoOrPin" class="form-control" placeholder="Enter NI number.." readonly style="background-color: #293043" />
                         <span asp-validation-for="NationalInsuranceNoOrPin" class="text-danger"></span>
                     </div>
                     <div class="col-md-2"></div>
@@ -160,7 +159,7 @@
 
                 <div class="form-group">
 
-                    <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Save</button>
+                    <button type="submit" class="btn btn-rounded btn-primary float-left"><i class="fas fa-plus-square" style="margin-right:0.7em"></i>Update</button>
                     <a asp-action="index" class="btn btn-rounded btn-success float-right"><i class="fas fa-caret-square-left" style="margin-right:0.7em"></i>Back</a>
                     <br />
                     <br />

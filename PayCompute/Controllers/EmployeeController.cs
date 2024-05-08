@@ -72,7 +72,7 @@ namespace PayCompute.Controllers
 
                 if (model.ImageUrl != null && model.ImageUrl.Length > 0)
                 {
-                    var uploadDir = @"images/employee";
+                    var uploadDir = @"wwwroot/Images/employee";
                     var fileName = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
                     var extention = Path.GetExtension(model.ImageUrl.FileName);
                     var webRootPath = _hostingEnvironment.ContentRootPath;
