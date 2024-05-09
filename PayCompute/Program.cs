@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting.Internal;
 using PayCompute.Persistance;
 using PayCompute.Services;
-using PayCompute.Services.Implentation;
+using PayCompute.Services.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +18,12 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IEmployeeService, EmployeeServices>();
+builder.Services.AddScoped<IEmployeeService,
+    EmployeeService>();
 builder.Services.AddScoped<HostingEnvironment, HostingEnvironment>();
+builder.Services.AddScoped<IPayComputationService, PayComputationService>();
+builder.Services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
+builder.Services.AddScoped<ITaxService, TaxService>();
 
 var app = builder.Build();
 
