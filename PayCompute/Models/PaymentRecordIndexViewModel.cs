@@ -1,5 +1,4 @@
-﻿using Paycompute.Entity;
-using PayCompute.Entity;
+﻿using PayCompute.Entity;
 using System.ComponentModel.DataAnnotations;
 
 namespace PayCompute.Models

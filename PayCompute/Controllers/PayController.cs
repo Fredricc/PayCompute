@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PayCompute.Models;
 using PayCompute.Entity;
 using PayCompute.Services;
-using RotativaCore;
-using PayCompute.Services.Implentation;
+using PayCompute.Services.Implementation;
 
 namespace PayCompute.Controllers
 {
@@ -26,7 +25,7 @@ namespace PayCompute.Controllers
         private decimal totalDeduction;
 
         public PayController(IPayComputationService payComputationService,
-                            EmployeeServices employeeService,
+                            EmployeeService employeeService,
                             ITaxService taxService,
                             INationalInsuranceContributionService nationalInsuranceContributionService)
         {
@@ -66,7 +65,7 @@ namespace PayCompute.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(PaymentRecordCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -183,13 +182,5 @@ namespace PayCompute.Controllers
             return View(model);
         }
 
-        public IActionResult GeneratePayslipPdf(int id)
-        {
-            var payslip = new ActionAsPdf("Payslip", new { id = id })
-            {
-                FileName = "payslip.pdf"
-            };
-            return payslip;
-        }
     }
 }
