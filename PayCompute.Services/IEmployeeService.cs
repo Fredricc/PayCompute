@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PayCompute.Services
 {
-    public interface IEmployeeServices
+    public interface IEmployeeService
     {
         Task CreateAsync(Employee newEmployee);
         Employee GetById(int employeeId);

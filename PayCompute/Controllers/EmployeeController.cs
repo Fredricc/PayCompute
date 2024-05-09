@@ -8,10 +8,10 @@ namespace PayCompute.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeServices _employeeServices;
+        private readonly IEmployeeService _employeeServices;
         private readonly HostingEnvironment _hostingEnvironment;
 
-        public EmployeeController(IEmployeeServices employeeServices, HostingEnvironment hostingEnvironment) 
+        public EmployeeController(IEmployeeService employeeServices, HostingEnvironment hostingEnvironment) 
         {
             this._employeeServices = employeeServices;
             this._hostingEnvironment = hostingEnvironment;

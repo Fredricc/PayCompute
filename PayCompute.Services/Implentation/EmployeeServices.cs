@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PayCompute.Services.Implentation
 {
-    public class EmployeeServices : IEmployeeServices
+    public class EmployeeServices : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
 
