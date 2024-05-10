@@ -2,6 +2,7 @@
 using PayCompute.Entity;
 using PayCompute.Models;
 using PayCompute.Services;
+using RotativaCore;
 
 namespace PayCompute.Controllers
 {
@@ -174,6 +175,15 @@ namespace PayCompute.Controllers
                 NetPayment = paymentRecord.NetPayment
             };
             return View(model);
+        }
+
+        public IActionResult GeneratePayslipPdf(int id)
+        {
+            var payslip = new ActionAsPdf("Payslip", new { id = id })
+            {
+                FileName = "payslip.pdf"
+            };
+            return payslip;
         }
     }
 }
