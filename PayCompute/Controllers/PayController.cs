@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using PayCompute.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using PayCompute.Entity;
+using PayCompute.Models;
 using PayCompute.Services;
-using PayCompute.Services.Implementation;
 
 namespace PayCompute.Controllers
 {
-    //[Authorize(Roles = "Admin,Manager")]
     public class PayController : Controller
     {
         private readonly IPayComputationService _payComputationService;
@@ -25,7 +22,7 @@ namespace PayCompute.Controllers
         private decimal totalDeduction;
 
         public PayController(IPayComputationService payComputationService,
-                            EmployeeService employeeService,
+                            IEmployeeService employeeService,
                             ITaxService taxService,
                             INationalInsuranceContributionService nationalInsuranceContributionService)
         {
@@ -54,7 +51,6 @@ namespace PayCompute.Controllers
             return View(payRecords);
         }
 
-        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewBag.employees = _employeeService.GetAllEmployeesForPayroll();
@@ -65,7 +61,6 @@ namespace PayCompute.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(PaymentRecordCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -142,7 +137,6 @@ namespace PayCompute.Controllers
         }
 
         [HttpGet]
-        //[AllowAnonymous]
         public IActionResult Payslip(int id)
         {
             var paymentRecord = _payComputationService.GetById(id);
@@ -181,14 +175,5 @@ namespace PayCompute.Controllers
             };
             return View(model);
         }
-
-        //public IActionResult GeneratePayslipPdf(int id)
-        //{
-        //    var payslip = new ActionAsPdf("Payslip", new { id = id })
-        //    {
-        //        FileName = "payslip.pdf"
-        //    };
-        //    return payslip;
-        //}
     }
 }
