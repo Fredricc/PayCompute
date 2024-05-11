@@ -20,7 +20,6 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IEmployeeService,
     EmployeeService>();
-builder.Services.AddScoped<HostingEnvironment, HostingEnvironment>();
 builder.Services.AddScoped<IPayComputationService, PayComputationService>();
 builder.Services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
 builder.Services.AddScoped<ITaxService, TaxService>();
