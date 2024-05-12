@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayCompute.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baaf8ed297b7ec7cb77b12e347867ef8ed000f65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47abcbb5b6f22d3d5842377fa1623a5d39d43f4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayCompute.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayCompute.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
